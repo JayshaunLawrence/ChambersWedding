@@ -571,6 +571,9 @@ input, select, textarea {
 		h2 {
 			font-size: 1.5em;
 		}
+		h3 {
+			font-size: 1.5em;
+		}
 
 	}
 
@@ -622,7 +625,7 @@ input, select, textarea {
 
 	.box {
 		background: #ffffff;
-		color: #39454b;
+		color: black;
 		padding: 2em;
 	}
 
@@ -642,7 +645,7 @@ input, select, textarea {
 
 				.box.style2 {
 					padding: 1.5em 1.25em 1.5em 1.25em;
-					background-color: rgba(255, 255, 255, 0.9);
+					background-color: rgba(255, 255, 255, 0.7);
 				}
 
 		}
@@ -1430,6 +1433,7 @@ input, select, textarea {
 		width: 45em;
 		max-width: 100%;
 		margin: 0 auto 2em auto;
+		background: white;
 	}
 
 		.gallery article {
@@ -1847,6 +1851,15 @@ input, select, textarea {
 			cursor: default;
 		}
 
+		#header h3 {
+			position: absolute;
+			left: 1em;
+			top: 222;
+			height: 3em;
+			line-height: 3em;
+			cursor: default;
+		}
+
 			#header h1 a {
 				font-size: 1.25em;
 			}
@@ -1968,6 +1981,11 @@ input, select, textarea {
 				font-size: 4.25em;
 				line-height: 1em;
 			}
+			.main.style1 h3 {
+				font-size: 4.25em;
+				line-height: 1em;
+				font-family: Snell Roundhand, cursive;
+			}
 
 			.main.style1 > .content {
 				-moz-transition: opacity 1s ease;
@@ -2055,7 +2073,7 @@ input, select, textarea {
 			}
 
 			.main.style3.secondary {
-				background: #f5f6f7;
+				background: white;
 			}
 
 		.main.dark {
@@ -2125,6 +2143,9 @@ input, select, textarea {
 			}
 
 				.main.style1 h2 {
+					font-size: 3em;
+				}
+				.main.style1 h3 {
 					font-size: 3em;
 				}
 
@@ -2277,6 +2298,52 @@ input, select, textarea {
 		background-position: top left, center top;
 	}
 
+	/* Work */
+
+	#work {
+		background: url("images/overlay.png"), url("../../images/pic6.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center top;
+		h2:jj;
+	}	
+	#work h2, {
+		font-weight: 900;
+		color: white;
+		letter-spacing: -0.0325em;
+		}
+
+	#guestinfo {
+		background: url("images/overlay.png"), url("../../images/flower-green2.JPG");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, top;
+	}
+	#guestinfo2 {
+		background: url("images/overlay.png"), url("../../images/flower-green.JPG");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, top;
+	}
+	#crew {
+		background: url("images/overlay.png"), url("../../images/flower-green3.JPG");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, top;
+	}
+	#crew2 {
+		background: url("images/overlay.png"), url("../../images/flower-red.JPG");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, top;
+	}
+	#wishlist {
+		background: url("images/overlay.png"), url("../../images/flower-yellow.JPG");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, top;
+	}
+
 /* Contact */
 
 	#contact {
@@ -2305,6 +2372,7 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			position: relative;
+			background: rgba(255,255,255,0.8);
 		}
 
 		#contact.inactive .box {
