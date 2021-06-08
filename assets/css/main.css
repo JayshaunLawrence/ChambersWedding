@@ -2347,7 +2347,7 @@ input, select, textarea {
 /* Contact */
 
 	#contact {
-		background: url("images/overlay.png"), url("../../images/pic3.jpg");
+		background: url("images/overlay.png"), url("../../images/pic3.JPG");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top right, center top;
