@@ -1,5 +1,5 @@
 const year = new Date().getFullYear();
-const fourthOfJuly = new Date(2021, 6, 4).getTime();
+const fourthOfJuly = new Date(2021, 6, 21).getTime();
 console.log(fourthOfJuly);
 
 // countdown
